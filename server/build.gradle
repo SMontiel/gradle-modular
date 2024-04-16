@@ -2,17 +2,20 @@ plugins {
     id 'application'
 }
 
-group = 'com.example'
+group = 'com.smontiel'
 version = '0.1.0'
 
 sourceCompatibility = '8'
 
 repositories {
     mavenCentral()
+
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation project(':client')
+    //implementation project(':client')
+    implementation 'com.github.SMontiel:gradle-modular:8bc33b844e'
 
     testImplementation 'junit:junit:4.13.2'
 }

@@ -1,3 +1,3 @@
-rootProject.name = 'openai-client'
+rootProject.name = 'gradle-modular'
 include 'client'
 include 'server'

@@ -1,4 +1,6 @@
-allprojects {
+
+
+/*allprojects {
 	version = "1.4"
 	group = 'io.jitpack.gradle-modular'
 }
@@ -26,3 +28,4 @@ subprojects {
 		}
 	}
 }
+*/
